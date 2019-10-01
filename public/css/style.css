@@ -1,0 +1,175 @@
+:root {
+  --main-bg-color: #131418;
+  --secondary-bg-color: #1e1f26;
+  --accent-color: #ed176a;
+  --light-text: #b8bbc8;
+}
+
+body {
+  background-color: #131418;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color: #fff;
+  font-family: 'Nunito Sans', sans-serif;
+}
+  h1{
+    text-transform: capitalize;
+    font-weight: 800;
+  }
+
+  h5{
+    letter-spacing: 2.5px;
+    font-weight: 700;
+  }
+
+  h6{
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+.round{
+  border-radius: 5px;
+}
+
+.text-light{
+  color: #fff;
+}
+
+.button{
+  background-color: #444857;
+  border-radius: 5px;
+}
+
+.button:hover,
+.button:active,
+.button:focus{
+  background-color: var(--accent-color);
+}
+
+a{
+  color: #fff;
+}
+
+.image{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 15px var(--secondary-bg-color);
+  border-radius: 10px;
+  line-height: 0;
+}
+
+.thumbnail {
+  border: none;
+}
+
+.portfolio-me{
+  padding: 20px;
+  background: var(--secondary-bg-color);
+  color: #fff;
+  box-shadow: none !important;
+}
+
+  .portfolio-me p{
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .portfolio-me a{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    -webkit-text-transform: uppercase;
+    text-transform: uppercase;
+  }
+
+  .portfolio-me a:hover{
+    color: var(--accent-color);
+  }
+
+.portfolio-breadcrumb{
+  margin: 0 0 50px 0;
+  padding: 20px;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+ .portfolio-breadcrumb a{
+   color: var(--accent-color);
+   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-weight: 600;
+   font-size: 13px;
+   letter-spacing: 2.5px;
+   -webkit-text-transform: uppercase;
+   text-transform: uppercase;
+ }
+
+.portfolio-intro{
+  margin: 0;
+  padding: 16px 50px 30px;
+}
+
+.portfolio-intro p{
+  border-bottom: 1px solid #ed176a;
+  padding-bottom: 40px;
+}
+
+.portfolio-index{
+  margin: 0;
+  padding: 10px 50px;
+}
+
+  .portfolio-index .thumbnail{
+    margin-bottom: 15px;
+  }
+
+.portfolio-index h5{
+  margin-bottom: 0;
+}
+
+  .portfolio-index a{
+    border-radius: 10px;
+    background-color: var(--secondary-bg-color);
+    display: block;
+    padding: 15px;
+    transition: .3s ease-out all;
+  }
+    .portfolio-index a:hover{
+      background-color: var(--accent-color);
+    }
+
+  .portfolio-index .cell{
+    margin-bottom: 15px;
+  }
+
+    .portfolio-index .cell h5{
+      letter-spacing: 1px;
+    }
+
+.portfolio-meta{
+  padding-left: 20px;
+}
+
+  .portfolio-meta .button{
+    margin-bottom: 5px;
+  }
+
+.portfolio-project p{
+  border: none;
+}
+
+.portfolio-project li{
+  font-size: 13px;
+  color: var(--light-text);
+}
+
+.portfolio-bio{
+    line-height: 25px;
+}
